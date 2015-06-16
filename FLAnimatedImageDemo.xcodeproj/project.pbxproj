@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		234A5F1A1B304343007313D6 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 234A5F191B304343007313D6 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		234A5F2C1B304343007313D6 /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234A5F151B304343007313D6 /* FLAnimatedImage.framework */; };
+		234A5F2D1B304343007313D6 /* FLAnimatedImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 234A5F151B304343007313D6 /* FLAnimatedImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		234A5F351B304369007313D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872EBE73178B825500B7531B /* CoreGraphics.framework */; };
+		234A5F361B304369007313D6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872EBEBA178B8F9000B7531B /* MobileCoreServices.framework */; };
+		234A5F371B304369007313D6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872EBEBC178B8FA000B7531B /* QuartzCore.framework */; };
+		234A5F381B304379007313D6 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872EBEB2178B89DF00B7531B /* ImageIO.framework */; };
+		234A5F391B304381007313D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872EBE71178B825500B7531B /* Foundation.framework */; };
+		234A5F3A1B304387007313D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872EBE6F178B825500B7531B /* UIKit.framework */; };
+		234A5F3B1B3043A0007313D6 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 87CB59F21935A7CF00620C16 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		234A5F3C1B3043A3007313D6 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CB59F31935A7CF00620C16 /* FLAnimatedImage.m */; };
+		234A5F3D1B3043A7007313D6 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 87CB59F41935A7CF00620C16 /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		234A5F3E1B3043A7007313D6 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CB59F51935A7CF00620C16 /* FLAnimatedImageView.m */; };
 		870D79D51936EBFC009D1BCE /* rock.gif in Resources */ = {isa = PBXBuildFile; fileRef = 870D79D41936EBFC009D1BCE /* rock.gif */; };
 		872EBE70178B825500B7531B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872EBE6F178B825500B7531B /* UIKit.framework */; };
 		872EBE72178B825500B7531B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872EBE71178B825500B7531B /* Foundation.framework */; };
@@ -28,7 +41,34 @@
 		87CB5A151935A8C600620C16 /* RSPlayPauseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CB5A101935A8C600620C16 /* RSPlayPauseButton.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		234A5F2A1B304343007313D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 872EBE64178B825500B7531B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 234A5F141B304343007313D6;
+			remoteInfo = FLAnimatedImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		234A5F331B304343007313D6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				234A5F2D1B304343007313D6 /* FLAnimatedImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		234A5F151B304343007313D6 /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		234A5F181B304343007313D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		234A5F191B304343007313D6 /* FLAnimatedImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
 		870D79D41936EBFC009D1BCE /* rock.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = rock.gif; path = "FLAnimatedImageDemo/test-gifs/rock.gif"; sourceTree = SOURCE_ROOT; };
 		872EBE6C178B825500B7531B /* FLAnimatedImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLAnimatedImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		872EBE6F178B825500B7531B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -63,6 +103,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		234A5F111B304343007313D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234A5F3A1B304387007313D6 /* UIKit.framework in Frameworks */,
+				234A5F391B304381007313D6 /* Foundation.framework in Frameworks */,
+				234A5F381B304379007313D6 /* ImageIO.framework in Frameworks */,
+				234A5F351B304369007313D6 /* CoreGraphics.framework in Frameworks */,
+				234A5F361B304369007313D6 /* MobileCoreServices.framework in Frameworks */,
+				234A5F371B304369007313D6 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		872EBE69178B825500B7531B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,6 +124,7 @@
 				872EBE74178B825500B7531B /* CoreGraphics.framework in Frameworks */,
 				872EBE70178B825500B7531B /* UIKit.framework in Frameworks */,
 				872EBEBD178B8FA000B7531B /* QuartzCore.framework in Frameworks */,
+				234A5F2C1B304343007313D6 /* FLAnimatedImage.framework in Frameworks */,
 				872EBEB3178B89DF00B7531B /* ImageIO.framework in Frameworks */,
 				872EBEBB178B8F9000B7531B /* MobileCoreServices.framework in Frameworks */,
 			);
@@ -79,10 +133,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		234A5F161B304343007313D6 /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				234A5F191B304343007313D6 /* FLAnimatedImage.h */,
+				234A5F171B304343007313D6 /* Supporting Files */,
+			);
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		234A5F171B304343007313D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				234A5F181B304343007313D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		872EBE63178B825500B7531B = {
 			isa = PBXGroup;
 			children = (
 				872EBE75178B825500B7531B /* FLAnimatedImageDemo */,
+				234A5F161B304343007313D6 /* FLAnimatedImage */,
 				872EBE6E178B825500B7531B /* Frameworks */,
 				872EBE6D178B825500B7531B /* Products */,
 			);
@@ -92,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				872EBE6C178B825500B7531B /* FLAnimatedImageDemo.app */,
+				234A5F151B304343007313D6 /* FLAnimatedImage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,7 +241,38 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		234A5F121B304343007313D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234A5F1A1B304343007313D6 /* FLAnimatedImage.h in Headers */,
+				234A5F3B1B3043A0007313D6 /* FLAnimatedImage.h in Headers */,
+				234A5F3D1B3043A7007313D6 /* FLAnimatedImageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		234A5F141B304343007313D6 /* FLAnimatedImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234A5F321B304343007313D6 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */;
+			buildPhases = (
+				234A5F101B304343007313D6 /* Sources */,
+				234A5F111B304343007313D6 /* Frameworks */,
+				234A5F121B304343007313D6 /* Headers */,
+				234A5F131B304343007313D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLAnimatedImage;
+			productName = FLAnimatedImage;
+			productReference = 234A5F151B304343007313D6 /* FLAnimatedImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		872EBE6B178B825500B7531B /* FLAnimatedImageDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 872EBEA7178B825500B7531B /* Build configuration list for PBXNativeTarget "FLAnimatedImageDemo" */;
@@ -176,10 +280,12 @@
 				872EBE68178B825500B7531B /* Sources */,
 				872EBE69178B825500B7531B /* Frameworks */,
 				872EBE6A178B825500B7531B /* Resources */,
+				234A5F331B304343007313D6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				234A5F2B1B304343007313D6 /* PBXTargetDependency */,
 			);
 			name = FLAnimatedImageDemo;
 			productName = AnimatedImageDemo;
@@ -195,6 +301,11 @@
 				CLASSPREFIX = FL;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Flipboard;
+				TargetAttributes = {
+					234A5F141B304343007313D6 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
 			};
 			buildConfigurationList = 872EBE67178B825500B7531B /* Build configuration list for PBXProject "FLAnimatedImageDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -209,11 +320,19 @@
 			projectRoot = "";
 			targets = (
 				872EBE6B178B825500B7531B /* FLAnimatedImageDemo */,
+				234A5F141B304343007313D6 /* FLAnimatedImage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		234A5F131B304343007313D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		872EBE6A178B825500B7531B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -227,6 +346,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		234A5F101B304343007313D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234A5F3C1B3043A3007313D6 /* FLAnimatedImage.m in Sources */,
+				234A5F3E1B3043A7007313D6 /* FLAnimatedImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		872EBE68178B825500B7531B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,6 +374,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		234A5F2B1B304343007313D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 234A5F141B304343007313D6 /* FLAnimatedImage */;
+			targetProxy = 234A5F2A1B304343007313D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		87CB59FE1935A83900620C16 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -258,6 +394,78 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		234A5F2E1B304343007313D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = FLAnimatedImage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		234A5F2F1B304343007313D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = FLAnimatedImage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		872EBEA5178B825500B7531B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -325,6 +533,7 @@
 				GCC_PREFIX_HEADER = "FLAnimatedImageDemo/FLAnimatedImageDemo-Prefix.pch";
 				INFOPLIST_FILE = "FLAnimatedImageDemo/FLAnimatedImageDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = FLAnimatedImageDemo;
 				TARGETED_DEVICE_FAMILY = 2;
 				WARNING_CFLAGS = "-Wundef";
@@ -341,6 +550,7 @@
 				GCC_PREFIX_HEADER = "FLAnimatedImageDemo/FLAnimatedImageDemo-Prefix.pch";
 				INFOPLIST_FILE = "FLAnimatedImageDemo/FLAnimatedImageDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = FLAnimatedImageDemo;
 				TARGETED_DEVICE_FAMILY = 2;
 				WARNING_CFLAGS = "-Wundef";
@@ -351,6 +561,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		234A5F321B304343007313D6 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234A5F2E1B304343007313D6 /* Debug */,
+				234A5F2F1B304343007313D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		872EBE67178B825500B7531B /* Build configuration list for PBXProject "FLAnimatedImageDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
